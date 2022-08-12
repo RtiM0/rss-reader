@@ -22,7 +22,7 @@ export default function CreateFeedModal({ children, refresh }) {
     return (
         <>
             <button
-                className="text-center inset-x-0 absolute p-5 bottom-0 w-full"
+                className="text-center inset-x-0 absolute p-5 sm:bottom-0 bottom-10 w-full"
                 onClick={() => setIsOpen(true)}
             >
                 <p className="bg-blue-300 text-blue-900 text-lg rounded p-2 font-semibold hover:bg-blue-400">

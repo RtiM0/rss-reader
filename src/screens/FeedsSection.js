@@ -3,7 +3,7 @@ import CreateFeedModal from "../components/CreateFeedModal"
 import List from "../components/List"
 
 export default function FeedsSection({ feed, selectedFeed, onFeedClick, updatePage }) {
-    return <div className={`border-r dark:border-zinc-700 text-xl col-span-9 sm:col-span-2 font-semibold overflow-auto relative h-screen sm:h-auto sm:block ${selectedFeed ? "hidden" : ""}`}>
+    return <div className={`border-r dark:border-zinc-700 text-xl col-span-9 sm:col-span-2 font-semibold overflow-auto h-screen sm:h-auto sm:block ${selectedFeed ? "hidden" : ""}`}>
         <List>
             {feed.map((feed, index) =>
                 <button

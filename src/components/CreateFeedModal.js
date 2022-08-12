@@ -21,14 +21,14 @@ export default function CreateFeedModal({ children, refresh }) {
 
     return (
         <>
-            <button
-                className="text-center inset-x-0 absolute p-5 sm:bottom-0 bottom-10 w-full"
-                onClick={() => setIsOpen(true)}
-            >
-                <p className="bg-blue-300 text-blue-900 text-lg rounded p-2 font-semibold hover:bg-blue-400">
+            <div className="text-center flex p-5 sm:bottom-0 bottom-10">
+                <button
+                    className="bg-blue-300 w-full text-blue-900 text-lg rounded p-2 font-semibold hover:bg-blue-400"
+                    onClick={() => setIsOpen(true)}
+                >
                     {children}
-                </p>
-            </button>
+                </button>
+            </div>
 
             <Transition appear show={isOpen} as={Fragment}>
                 <Dialog as="div" className="relative z-10" onClose={() => setIsOpen(false)}>

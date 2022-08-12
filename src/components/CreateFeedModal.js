@@ -55,15 +55,15 @@ export default function CreateFeedModal({ children, refresh }) {
                                 leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                                 leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                             >
-                                <Dialog.Panel className="relative bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:max-w-lg sm:w-full">
-                                    <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                                <Dialog.Panel className="relative bg-white dark:bg-zinc-900 dark:bg-opacity-90 rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:max-w-lg sm:w-full">
+                                    <div className="bg-white dark:bg-zinc-900 dark:bg-opacity-90 px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                                         <div className="sm:flex sm:items-start">
                                             <div className="mt-3 text-center sm:mt-0 sm:text-left">
-                                                <Dialog.Title as="h3" className="text-lg leading-6 font-medium text-gray-900">
+                                                <Dialog.Title as="h3" className="text-lg leading-6 font-medium dark:text-gray-50 text-gray-900">
                                                     Add RSS Feed
                                                 </Dialog.Title>
                                                 <div className="mt-2">
-                                                    <p className='text-gray-500 mt-2'>
+                                                    <p className='text-gray-500 dark:text-gray-50 mt-2'>
                                                         RSS Reader will attempt to detect the RSS Feed location of the website, you might need to add it manually if the feed location cant be detected.
                                                     </p>
                                                     <form
@@ -71,7 +71,7 @@ export default function CreateFeedModal({ children, refresh }) {
                                                         onSubmit={onSubmit}
                                                     >
                                                         <div className='pb-5'>
-                                                            <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+                                                            <label htmlFor="name" className="block text-sm font-medium dark:text-gray-400 text-gray-700">
                                                                 Name
                                                             </label>
                                                             <input
@@ -79,12 +79,12 @@ export default function CreateFeedModal({ children, refresh }) {
                                                                 name="name"
                                                                 id="name"
                                                                 placeholder="Nytimes"
-                                                                className="mt-1 p-2 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                                                                className="mt-1 p-2 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md dark:bg-zinc-700 dark:text-white"
                                                             />
                                                         </div>
 
                                                         <div>
-                                                            <label htmlFor="url" className="block text-sm font-medium text-gray-700">
+                                                            <label htmlFor="url" className="block text-sm font-medium dark:text-gray-400 text-gray-700">
                                                                 URL
                                                             </label>
                                                             <input
@@ -92,7 +92,7 @@ export default function CreateFeedModal({ children, refresh }) {
                                                                 name="url"
                                                                 id="url"
                                                                 placeholder="https://nytimes.com/"
-                                                                className="mt-1 p-2 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                                                                className="mt-1 p-2 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md dark:bg-zinc-700 dark:text-white"
                                                             />
                                                         </div>
                                                     </form>
@@ -100,7 +100,7 @@ export default function CreateFeedModal({ children, refresh }) {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                                    <div className="bg-gray-50 dark:bg-zinc-800 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
                                         <button
                                             form="create-feed-form"
                                             type="submit"

@@ -4,6 +4,45 @@ This is the front-end of RSS Reader built with ReactJS and TailwindCSS.
 
 > RSS stands for Really Simple Syndication, and it is a simple, standardized content distribution method that can help you stay up-to-date with your favourite newscasts, blogs, websites, and social media channels. Instead of visiting sites to find new posts or subscribing to sites to receive notifications of new posts, find the RSS feed on a website and read new posts in an RSS reader.
 
+## Screenshots
+- Web
+	<table>
+		  <tr>
+		  	<th>Light Mode</th>
+		  </tr>
+		  <tr>
+		  	<td><img src="https://github.com/RtiM0/rss-reader/blob/master/stills/web_light.png" /></td>
+		  </tr>
+	</table>
+	<table>
+		  <tr>
+		  	<th>Dark Mode</th>
+		  </tr>
+		  <tr>
+		  	<td><img src="https://github.com/RtiM0/rss-reader/blob/master/stills/web_dark.png" /></td>
+		  </tr>
+	</table>
+- Mobile
+	<table>
+		  <tr>
+			<th colspan="3">Light Mode</th>
+		  </tr>
+		  <tr>
+		  	<td> <img src="https://github.com/RtiM0/rss-reader/blob/master/stills/mobile_light_feeds.png" /> </td>
+			<td> <img src="https://github.com/RtiM0/rss-reader/blob/master/stills/mobile_light_items.png" /> </td>
+			<td> <img src="https://github.com/RtiM0/rss-reader/blob/master/stills/mobile_light_content.png" /> </td>
+		  </tr>
+	</table>
+	<table>
+		  <tr>
+		    <th colspan="3">Dark Mode</th>
+		  </tr>
+		  <tr>
+		  	<td> <img src="https://github.com/RtiM0/rss-reader/blob/master/stills/mobile_dark_feeds.png" /> </td>
+			<td> <img src="https://github.com/RtiM0/rss-reader/blob/master/stills/mobile_dark_items.png" /> </td>
+			<td> <img src="https://github.com/RtiM0/rss-reader/blob/master/stills/mobile_dark_content.png" /> </td>
+		  </tr>
+	</table>
 ## Installation
 1. Clone the project
 	```bash
